@@ -1,0 +1,65 @@
+ALGORITMOS
+1.- Leer dos números cualquiera, dentro del rango de 20 a 50 y mostrar, suma, resta, multiplicación y división.
+ANALISIS
+ENTRADA: dos números cualquiera, cuatro números para resultados.
+RESTRICCIONES: Los números deben estar en el rango de 20 a 50.
+SALIDA: cuatro números cualquiera
+
+DISEÑO
+
+1.- Inicio
+2.- VAR: n1,n2,suma, resta, mult, div: REAL
+3.- n10.0,n20.0,suma0.0,resta0.0,mult0.0,div0.0
+4.-Mensaje “Ingresa dos números entre 20 y 50”
+5.-Leer n1,n2
+6.-Si (n1>=20 AND n1<=50) AND (n2>=20 AND n2 <=50)
+    Si, ir al paso 7
+    No, Mensaje “No ingresaste números solicitados” regresar al paso 4
+7.- suman1+n2
+8.- restan1-n2
+9.- multn1*n2
+10.-divn1/n2
+11.- Mostrar mensaje “Los resultado de la suma, resta, multiplicación y división son: “ suma, resta, mult,div
+12.- Fin
+
+VERIFICACIÓN
+n1	n2	suma	resta	mult	div	salida
+0.0	0.0	0.0	0.0	0.0	0.0	Ingresa dos números entre 20 y 50
+60	4					No ingresaste números solicitados 
+Ingresa dos números entre 20 y 50
+24	45	69	-21	1080	0.5333	Los resultado de la suma, resta, multiplicación y división son: 69,-21,1080,0.5333
+
+
+2.- Leer un número, mostrar el número y si es par.
+ANÁLISIS
+ENTRADA: Un variable entero, un variable entero para el residuo
+RESTRICCIONES: verificar que el número sea par o no
+SALIDA: un número entero y un mensaje
+
+DISEÑO
+1.- Inicio
+2.- Var: x,res:ENTERAS
+3.- x0,res0
+4.- Mensaje “Ingresa un número entero”
+5.-Leer x
+6.- resx MOD 2
+7.-Si res=0
+     Si, ir al paso 8
+     No, Mostrar x “ no es par” e ir al paso 9
+8.- Mostrar “El número ingresado es par “ x
+9.- Fin
+
+VERIFICAR
+
+
+
+
+
+Suma +
+Resta –
+Multiplicación *
+División /
+Residuo MOD
+
+
+4
